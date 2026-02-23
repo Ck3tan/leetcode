@@ -34,6 +34,11 @@ Constraints:
 1 <= prices.length <= 3 * 104
 0 <= prices[i] <= 104
 
+Create a variable to store the total profit and initialize it to 0.
+Use a for loop to iterate through the prices array starting from the second day (index 1).
+In each iteration, compare the current day's price with the previous day's price. If the current day's price is higher than the previous day's price, it means there is a profit opportunity. Add the difference between the current day's price and the previous day's price to the total profit.
+After the loop, return the total profit as the result.  
+
 */
 
 class Solution {

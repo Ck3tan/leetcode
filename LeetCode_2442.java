@@ -28,6 +28,13 @@ Constraints:
 1 <= nums.length <= 105
 1 <= nums[i] <= 106
 
+Create a helper function to reverse the digits of an integer.
+Create a HashSet to store the distinct integers encountered in the array.
+Iterate through each integer in the input array nums:
+For each integer, check if it is already in the HashSet. If not, add it to the HashSet.
+Use the helper function to reverse the integer and check if the reversed integer is already in the HashSet. If not, add the reversed integer to the HashSet.
+After iterating through all the integers in the input array, return the size of the HashSet, which represents the number of distinct integers in the final array.
+
 */
 
 import java.util.Set;

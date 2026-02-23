@@ -27,6 +27,12 @@ Constraints:
 1 <= prices.length <= 105
 0 <= prices[i] <= 104
 
+Create a variable to store the minimum price and initialize it to the maximum possible integer value.
+Create a variable to store the maximum profit and initialize it to 0.
+Use a for loop to iterate through each price in the prices array.
+In each iteration, update the minimum price if the current price is lower than the minimum price.
+Calculate the potential profit by subtracting the minimum price from the current price. If this potential profit is greater than the maximum profit, update the maximum profit.
+After the loop, return the maximum profit as the result.    
 
 */
 
